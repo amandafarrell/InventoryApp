@@ -2,6 +2,9 @@ package com.example.android.inventory.data;
 
 import android.provider.BaseColumns;
 
+/**
+ * API Contract for the Inventory app.
+ */
 public class InventoryContract {
 
     // To prevent someone from accidentally instantiating the contract class,
@@ -39,11 +42,11 @@ public class InventoryContract {
         public final static String COLUMN_PRODUCT_PRICE = "product_price";
 
         /**
-         * Weight of the product.
+         * Quantity of the product.
          *
          * Type: INTEGER
          */
-        public final static String COLUMN_PRODUCT_WEIGHT = "product_weight";
+        public final static String COLUMN_PRODUCT_QUANTITY = "product_quantity";
 
         /**
          * Name of the supplier.
